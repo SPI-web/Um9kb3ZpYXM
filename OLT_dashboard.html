@@ -341,7 +341,7 @@ let navOriginalTop = null;
 // Carrega as informações adicionais das OLTs do GitHub
 async function loadOltsInfo() {
   try {
-    const response = await fetch('https://grupotel-web.github.io/dadosOLT.json');
+    const response = await fetch('https://spi-web.github.io/dadosOLT.json');
     const data = await response.json();
     oltsInfo = {};
     data.forEach(olt => {
@@ -1155,3 +1155,4 @@ window.addEventListener('scroll', function() {
 </script>
 </body>
 </html>
+
